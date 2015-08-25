@@ -1,0 +1,63 @@
+body
+{
+	background-color:#000;
+	color:#00cc00;
+	font-family:sans-serif;
+	font-size:100%;
+}
+h1
+{
+	font-size:3em;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+nav
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	background-color:#555;
+	text-align:center;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+nav a
+{
+	padding:0.50em;
+	background-color:#444;
+	color:#00cc00;
+	text-decoration:none;
+	border-style:solid;
+	border-width:2px;
+	border-radius:4px;
+}
+nav a:hover
+{
+	background-color:#777;
+	background-color:#444;
+	color:#00cc00;
+}
+
+.button a
+{
+	padding:0.50em;
+	background-color:#444;
+	color:#00cc00;
+	text-decoration:none;
+	border-style:solid;
+	border-width:2px;
+	border-radius:4px;
+}
+#emailButton
+{
+	text-align:center;
+}
+#centerFix
+{
+	max-width: 1080px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#222;
+	padding:5px;
+}
