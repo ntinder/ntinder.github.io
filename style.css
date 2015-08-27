@@ -61,3 +61,10 @@ nav a:hover
 	background-color:#222;
 	padding:5px;
 }
+
+@media only screen and (max-width : 320px){
+	body
+	{
+		font-size:120%;
+	}
+}
