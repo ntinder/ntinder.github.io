@@ -22,16 +22,7 @@ nav
 	padding-top:1em;
 	padding-bottom:1em;
 }
-nav a
-{
-	padding:0.50em;
-	background-color:#444;
-	color:#00cc00;
-	text-decoration:none;
-	border-style:solid;
-	border-width:2px;
-	border-radius:4px;
-}
+
 nav a:hover
 {
 	background-color:#777;
@@ -49,6 +40,17 @@ nav a:hover
 	border-width:2px;
 	border-radius:4px;
 }
+.card
+{
+	width:80%;
+	background-color:#444;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1em;
+	margin-bottom:1em;
+	border-radius:1em;
+	padding:1em;
+}
 #emailButton
 {
 	text-align:center;
@@ -59,7 +61,7 @@ nav a:hover
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#222;
-	padding:5px;
+	padding:1em;
 }
 
 @media screen and (max-width : 400px){
