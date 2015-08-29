@@ -26,7 +26,10 @@ nav a:hover, .button a:hover
 	background-color:#aaa;
 	color:#ffffff;
 }
-
+a[href]
+{
+	color:#FFA500;
+}
 .button a
 {
 	padding:0.50em;
