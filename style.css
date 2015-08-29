@@ -61,6 +61,22 @@ a[href]
 	display:block;
 	text-align:center;
 }
+.logoTiltBackground
+{
+	background-image:url('./logoTiltBlue.gif');
+	background-size:4% auto;
+	margin:-1em;
+	padding: 1em;
+	padding-bottom:3.5em;
+}
+.logoTiltBackground h1, .logoTiltBackground h2
+{
+	text-shadow:5px 5px 5px #000;
+}
+.logoTiltBackground h2 a
+{
+	text-shadow:none;
+}
 #centerFix
 {
 	position:relative;
