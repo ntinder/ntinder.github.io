@@ -18,8 +18,6 @@ nav
 	left:0px;
 	width:100%;
 	background-color:#555;
-	
-	padding-bottom:1.15em;
 }
 nav .centerize
 {
@@ -72,11 +70,10 @@ nav a:hover
 }
 #logo
 {
-	position:fixed;
+	float:left;
 	max-height:3em;
 	max-width:3.3em;
-	padding-top:0.5em;
-	padding-left:0.5em;
+	padding:0.5em;
 }
 @media screen and (max-width : 400px){
 	body
