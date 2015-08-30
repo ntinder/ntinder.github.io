@@ -77,6 +77,15 @@ a[href]
 {
 	text-shadow:none;
 }
+#transparentFade
+{
+	background:-webkit-linear-gradient( rgba(255,0,0,0), rgba(113,151,219,1));
+	background:-o-linear-gradient( rgba(255,0,0,0), rgba(113,151,219,1));
+	background:-moz-linear-gradient( rgba(255,0,0,0), rgba(113,151,219,1));
+	background:linear-gradient( rgba(255,0,0,0), rgba(113,151,219,1));
+	height:15em;
+	margin:-15em -1em -5em;
+}
 #centerFix
 {
 	position:relative;
