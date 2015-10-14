@@ -72,6 +72,7 @@ a[href]
 	background-image:url('./logoTiltBlue.gif');
 	background-size:4% auto;
 	margin:-1em;
+	margin-bottom:3em;
 	padding: 1em;
 	padding-bottom:3.5em;
 }
