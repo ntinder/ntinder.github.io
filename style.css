@@ -21,24 +21,30 @@ nav
 	padding:0.5em;
 	z-index: 2;
 }
-nav a:hover, .button a:hover
-{
-	background-color:#aaa;
-	color:#ffffff;
-}
 a[href]
 {
 	color:#FFA500;
 }
-.button a
+.button:hover
+{
+	background-color:#aaa;
+	color:#ffffff;
+}
+.button
 {
 	padding:0.50em;
 	background-color:#444;
-	color:#fff;
-	text-decoration:none;
 	border-style:solid;
 	border-width:2px;
-	border-radius:4px;
+}
+.button *
+{
+	margin:0em;
+}
+.button a
+{
+	color:#fff;
+	text-decoration:none;
 }
 .card
 {
