@@ -25,6 +25,10 @@ a[href]
 {
 	color:#FFA500;
 }
+p
+{
+	font-family: 'Merriweather', serif;
+}
 .button:hover
 {
 	background-color:#aaa;
