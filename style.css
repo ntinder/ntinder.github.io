@@ -112,6 +112,13 @@ a[href]
 {
 	line-height:3em;
 }
+@media screen and (max-width : 490px)
+{
+	.button
+	{
+		margin-top:1em;
+	}
+}
 @media screen and (max-width : 400px){
 	body
 	{
